@@ -1,0 +1,22 @@
+[0131/151632.705:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0131/151632.732:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0131/151633.184:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0205/143558.616:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0212/183856.505:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0212/183856.505:ERROR:exception_snapshot_win.cc(98)] thread ID 8152 not found in process
+[0212/183856.516:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0212/183856.516:ERROR:exception_snapshot_win.cc(98)] thread ID 7180 not found in process
+[0224/133337.029:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0306/124308.670:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0306/124308.681:ERROR:exception_snapshot_win.cc(98)] thread ID 17388 not found in process
+[0306/124308.693:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0306/124308.693:ERROR:exception_snapshot_win.cc(98)] thread ID 16572 not found in process
+[0306/143602.863:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0306/143602.876:ERROR:exception_snapshot_win.cc(98)] thread ID 2456 not found in process
+[0306/143602.887:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0306/143602.887:ERROR:exception_snapshot_win.cc(98)] thread ID 2304 not found in process
+[0316/190654.857:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0316/191106.227:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0316/191521.145:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0320/150542.110:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0320/150542.391:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
