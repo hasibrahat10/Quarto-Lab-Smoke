@@ -2,9 +2,9 @@
 // let pricingAccess = require('./Pricing');
 // let industriesClickAccess = require('./Industries')
 // let requestDemoAccess = require('./RequestDemo');
-// let loginLogoutAccess = require('./LoginLogout');
+ let loginLogoutAccess = require('./LoginLogout');
 // let forgotPasswordAccess = require('./ForgotPassword');
-let loginAccess = require('./UserLogin');
+//let loginAccess = require('./UserLogin');
 //let simpleDocumentAccess = require('./SimpleDocument.js');
 //let multiSectionalDocumentAccess = require('./MultiSectionalDocument.js'); 
 //let VisualDocumentAccess = require('./VisualDocument.js');
@@ -23,7 +23,7 @@ let loginAccess = require('./UserLogin');
 // let profileHistoryAccess = require('./History.js')
 // let profileReadingLogAccess = require('./ReadingLog');
 // let profileHelpAccess = require('./Help.js');
-// let logOutAccess = require('./LogOut.js');
+//let logOutAccess = require('./LogOut.js');
 
 
 describe('Quarto Lab', function () {
@@ -56,12 +56,12 @@ describe('Quarto Lab', function () {
     //featureAccess.featureClick();
     // pricingAccess.pricingClick();
     // requestDemoAccess.requestDemo();
-    // loginLogoutAccess.loginLogout();
+     loginLogoutAccess.loginLogout();
     // forgotPasswordAccess.forgotPassword();
 
     //Login
 
-    loginAccess.login();
+    //loginAccess.login();
 
     //#Simple Document
     //simpleDocumentAccess.publish();

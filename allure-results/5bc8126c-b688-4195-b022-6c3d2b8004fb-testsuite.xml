@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625053049641' stop='1625053161034'>
+    <name>Quarto Lab</name>
+    <title>Quarto Lab</title>
+    <test-cases>
+        <test-case start='1625053049641' status='passed' stop='1625053059285'>
+            <name>Quarto Website</name>
+            <title>Quarto Website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b05a38e4-1bd1-4438-83e4-4df90f9bf7a8-attachment.png' type='image/png' size='97163'/>
+            </attachments>
+        </test-case>
+        <test-case start='1625053059285' status='passed' stop='1625053161033'>
+            <name>Login>Logout</name>
+            <title>Login>Logout</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4faff796-79e4-4e85-91f1-2b5bb4e04e53-attachment.png' type='image/png' size='80878'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
