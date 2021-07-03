@@ -2,9 +2,9 @@ let feature = function () {
 
     this.featureClick = function () {
         it('Click>Features', function () {
-            el = element(by.css('header:nth-child(1) nav.navbar-main ul:nth-child(1) li:nth-child(1) > a:nth-child(1)')).click();
+            el = element(by.xpath("//a[contains(text(), 'features')]")).click();
             browser.sleep(2000)
-            el.getText().then(function (text) { expect(text).toContain('FEATURES') });
+            el.getText().then(function (text) { expect(text).toContain('QUARTO FEATURES') });
         });
     };
 };

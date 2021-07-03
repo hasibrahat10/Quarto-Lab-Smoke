@@ -1,11 +1,13 @@
-// let featureAccess = require('./ClickFeatures');
+ 
+// ======================  Home Page / Landing Screen ============================ //
+ //let featureAccess = require('./ClickFeatures'); -ok
 // let pricingAccess = require('./Pricing');
 // let industriesClickAccess = require('./Industries')
 // let requestDemoAccess = require('./RequestDemo');
- let loginLogoutAccess = require('./LoginLogout');
+ //let loginLogoutAccess = require('./LoginLogout'); -ok 
 // let forgotPasswordAccess = require('./ForgotPassword');
 //let loginAccess = require('./UserLogin');
-//let simpleDocumentAccess = require('./SimpleDocument.js');
+let simpleDocumentAccess = require('./SimpleDocument.js');
 //let multiSectionalDocumentAccess = require('./MultiSectionalDocument.js'); 
 //let VisualDocumentAccess = require('./VisualDocument.js');
 //let createorUploadVideoAccess = require('./CreateorUploadVideo.js');
@@ -25,9 +27,9 @@
 // let profileHelpAccess = require('./Help.js');
 //let logOutAccess = require('./LogOut.js');
 
-
 describe('Quarto Lab', function () {
-    //////////// Web-Setup ////////////////
+
+    //========================= Web-Setup - Timeout Interval ========================== //
     beforeEach(function () {
         originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
         jasmine.DEFAULT_TIMEOUT_INTERVAL = 3000000;
@@ -41,7 +43,7 @@ describe('Quarto Lab', function () {
     it('Quarto Website', function () {
         browser.waitForAngularEnabled(true);
         browser.ignoreSynchronization = true; 
-        //#Domain
+        //=================== Domain/ Site / Application URL ====================== //
         //browser.get('http://qartolab.com/');
         browser.get('https://quartolab.com');
         browser.driver.manage().window().maximize();
@@ -50,21 +52,21 @@ describe('Quarto Lab', function () {
         
     });
 
-    //////////// Test-Suite ////////////////
+    //=========================  Test-Suite =========================//
 
-    //Website
-    //featureAccess.featureClick();
+    //============================= Website ============================= //
+
+    //featureAccess.featureClick(); - done
     // pricingAccess.pricingClick();
-    // requestDemoAccess.requestDemo();
-     loginLogoutAccess.loginLogout();
+    // requestDemoqqAccess.requestDemo();
+     //loginLogoutAccess.loginLogout(); - done
     // forgotPasswordAccess.forgotPassword();
-
     //Login
-
     //loginAccess.login();
 
-    //#Simple Document
-    //simpleDocumentAccess.publish();
+    //========================== Simple Document =============================//
+
+    simpleDocumentAccess.publish();
     // simpleDocumentAccess.imgPublish();
     // simpleDocumentAccess.docPublish();
     // simpleDocumentAccess.searchfilefromallcategoriesPublish();
@@ -73,24 +75,32 @@ describe('Quarto Lab', function () {
     // simpleDocumentAccess.simpleDocumentReset();
     //simpleDocumentAccess.addQuiz();
 
-    //#Multi-Sectional Document
+
+    //========================= Multi-Sectional Document ======================= //
+
     //multiSectionalDocumentAccess.multiSectionalDocumentPublish();
     //multiSectionalDocumentAccess.multiDocaddQuiz();
     
     
-    //#Visual Document
+    //========================= Visual Document ========================= //
+
     //VisualDocumentAccess.visualDocument();
     //VisualDocumentAccess.visualDocAddQuiz();
 
-    //#Create or Upload Video 
+
+    //========================= Create or Upload Video ========================= // 
+
     // createorUploadVideoAccess.createorUploadVideo();
     // createorUploadVideoAccess.createOrUploadLocalVideoAddQuiz();
     // createorUploadVideoAccess.createOrUploadEmbedVideoAddQuiz();
 
-    //#ASSIGN TO CREATE
+
+    // ========================= ASSIGN TO CREATE ========================= //
+
     //userAssignAccess.assignusertoCreate();
     //ShareURL
     //shareURLAccess.shareURL();
+
     //Global Search
     //globalsharehAccess.globalSearch();
     //Explore Categories 
